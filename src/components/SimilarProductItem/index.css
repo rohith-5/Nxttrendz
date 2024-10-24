@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.similar-products-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.similar-product-img {
+  width: 250px;
+  border-radius: 10px;
+}
+.similar-product-title {
+  font-size: 20px;
+}
+.similar-product-brand {
+  font-size: 16px;
+  margin: 7px 0px 20px 0px;
+}
+.similar-product-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.similar-container {
+  padding: 5px 10px;
+}
+.similar-rating {
+  font-size: 12px;
+}
+.similar-star {
+  width: 15px;
+}

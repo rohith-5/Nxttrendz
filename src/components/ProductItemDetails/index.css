@@ -1,0 +1,135 @@
+.product-details-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 70px;
+}
+.product-details-img {
+  width: 40%;
+  border-radius: 10px;
+}
+.text-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.product-details-heading {
+  color: #475569;
+  font-size: 55px;
+  font-weight: bold;
+}
+.product-price {
+  color: #12022f;
+  font-size: 25px;
+  font-weight: bold;
+}
+.ratings-reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+.ratings-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: none;
+}
+.rating {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.rating-img {
+  width: 15px;
+}
+.reviews {
+  color: #1e293b;
+  font-size: 14px;
+}
+.description {
+  color: #616e7c;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.availability {
+  color: #12022f;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 15px 0px 0px 0px;
+}
+.availability span {
+  color: #475569;
+  font-weight: normal;
+}
+.hr {
+  border: 1px solid #475569;
+  border-color: #475569;
+}
+.count-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.count {
+  color: #475569;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cart-btn {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #3b82f6;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.similar-products-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.similar-products-heading {
+  margin-left: 70px;
+}
+.similar-products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 30px;
+  gap: 50px;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.failure-img {
+  width: 60%;
+}
+.product-details-heading {
+  color: #12022f;
+  font-size: 33px;
+  font-weight: bold;
+}
+.similar-products {
+  display: flex;
+  gap: 30px;
+  column-gap: 50px;
+}
+.bs-btn{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
